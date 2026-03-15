@@ -1050,15 +1050,136 @@ body::before {
         width: 320px;
         height: 320px;
     }
+
+    #btn__letter {
+        padding: 14px 28px;
+        font-size: 1rem;
+    }
+
+    .decorate_star.star1, .decorate_star.star2, .decorate_star.star3,
+    .decorate_star.star4, .decorate_star.star5 {
+        display: none;
+    }
+
+    .smiley__icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title{
+        font-size: 1.8rem;
+    }
+
+    .title .happy, .title .birthday {
+        word-spacing: 0.2em;
+    }
+
+    .date__of__birth, .name {
+        margin-top: 15px;
+    }
+
+    .date__of__birth {
+        font-size: 0.9rem;
+    }
+
+    .name span {
+        font-size: 1rem;
+        margin: 0px 10px;
+    }
+
+    .content .right .image {
+        width: 200px;
+        height: 200px;
+        border: 6px solid var(--color-white);
+    }
+
+    .right .balloon_one, .right .balloon_two {
+        display: none;
+    }
+
+    .decorate_flower--one, .decorate_flower--two, .decorate_flower--three {
+        display: none;
+    }
+
+    .decorate_bottom {
+        display: none;
+    }
+
+    #btn__letter {
+        width: 100%;
+        max-width: 280px;
+        padding: 12px 24px;
+        font-size: 0.95rem;
+    }
+
+    .boxMail .boxMail-container {
+        width: 95vw;
+        height: auto;
+        min-height: 350px;
+    }
+
+    .boxMail .boxMail-container .card1,
+    .boxMail .boxMail-container .card2 {
+        width: 100% !important;
+        transform: none !important;
+    }
+
+    .boxMail .boxMail-container:hover .card1 {
+        transform: none !important;
+    }
+
+    .boxMail .boxMail-container .card1 .userImg {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .boxMail .boxMail-container .card1 h3 {
+        font-size: 2rem;
+    }
+
+    .boxMail .boxMail-container .card2 h3 {
+        font-size: 1.5rem;
+        padding: 15px 0px 5px 40px;
+    }
+
+    .boxMail .boxMail-container .card2 h2 {
+        font-size: 0.85rem;
+        padding: 0px 15px;
+        line-height: 1.5;
+    }
+
+    .box__letter .letter__border {
+        width: 95vw;
+        height: auto;
+        max-height: 85vh;
+        padding: 15px;
+    }
+
+    .letter__border .letter .title__letter {
+        font-size: 1.8rem;
+    }
+
+    .content__letter .right .text__letter {
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .flag__birthday {
+        transform: translateY(-150px);
+    }
+
     .flag__birthday .flag__left {
-        transform: rotate(-10deg) translate(-119px,3px);
+        width: 200px;
+        transform: rotate(-10deg) translate(-60px, 10px);
     }
 
     .flag__birthday .flag__right {
-        transform: rotate(10deg) translate(-106px,39px) scaleX(-1);
+        width: 200px;
+        transform: rotate(10deg) translate(-60px, 10px) scaleX(-1);
     }
 
     .content {
